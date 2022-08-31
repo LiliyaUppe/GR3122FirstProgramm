@@ -1,0 +1,15 @@
+/Users/liliiauppe/Desktop/GR3122/GR3122FirstProgramm/Sem1Task3/obj/Debug/net6.0/Sem1Task3.csproj.AssemblyReference.cache
+/Users/liliiauppe/Desktop/GR3122/GR3122FirstProgramm/Sem1Task3/obj/Debug/net6.0/Sem1Task3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/liliiauppe/Desktop/GR3122/GR3122FirstProgramm/Sem1Task3/obj/Debug/net6.0/Sem1Task3.AssemblyInfoInputs.cache
+/Users/liliiauppe/Desktop/GR3122/GR3122FirstProgramm/Sem1Task3/obj/Debug/net6.0/Sem1Task3.AssemblyInfo.cs
+/Users/liliiauppe/Desktop/GR3122/GR3122FirstProgramm/Sem1Task3/obj/Debug/net6.0/Sem1Task3.csproj.CoreCompileInputs.cache
+/Users/liliiauppe/Desktop/GR3122/GR3122FirstProgramm/Sem1Task3/bin/Debug/net6.0/Sem1Task3
+/Users/liliiauppe/Desktop/GR3122/GR3122FirstProgramm/Sem1Task3/bin/Debug/net6.0/Sem1Task3.deps.json
+/Users/liliiauppe/Desktop/GR3122/GR3122FirstProgramm/Sem1Task3/bin/Debug/net6.0/Sem1Task3.runtimeconfig.json
+/Users/liliiauppe/Desktop/GR3122/GR3122FirstProgramm/Sem1Task3/bin/Debug/net6.0/Sem1Task3.dll
+/Users/liliiauppe/Desktop/GR3122/GR3122FirstProgramm/Sem1Task3/bin/Debug/net6.0/Sem1Task3.pdb
+/Users/liliiauppe/Desktop/GR3122/GR3122FirstProgramm/Sem1Task3/obj/Debug/net6.0/Sem1Task3.dll
+/Users/liliiauppe/Desktop/GR3122/GR3122FirstProgramm/Sem1Task3/obj/Debug/net6.0/refint/Sem1Task3.dll
+/Users/liliiauppe/Desktop/GR3122/GR3122FirstProgramm/Sem1Task3/obj/Debug/net6.0/Sem1Task3.pdb
+/Users/liliiauppe/Desktop/GR3122/GR3122FirstProgramm/Sem1Task3/obj/Debug/net6.0/Sem1Task3.genruntimeconfig.cache
+/Users/liliiauppe/Desktop/GR3122/GR3122FirstProgramm/Sem1Task3/obj/Debug/net6.0/ref/Sem1Task3.dll
