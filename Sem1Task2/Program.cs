@@ -16,7 +16,7 @@ if (inputLineA != null && inputLineB != null)
 
     if (inputNumberA > 0 && inputNumberB > 0 && inputNumberA > inputNumberB)
     {
-         Console.WriteLine(inputNumberA > inputNumberB);
+         Console.WriteLine("inputNumberA > inputNumberB");
         Console.WriteLine("max = inputNumberA"); 
     }
     if (inputNumberA > 0 && inputNumberB > 0 && inputNumberA < inputNumberB)
