@@ -50,7 +50,7 @@ char[] charArray = number.ToString().ToCharArray();
 Console.WriteLine(((int)charArray[0] > (int)charArray[1]) ? charArray[0] : charArray[1]);
 }
 
-//TutorVariant (); если метод закомментировать, он отключается, а другие два остаются в работе
+TutorVariant (); //если метод закомментировать, он отключается, а другие два остаются в работе
 EvgenijVarian(); //можно отключить или включить столько методов сколько необходимо создателю/пользователю
 CharOperator();
 

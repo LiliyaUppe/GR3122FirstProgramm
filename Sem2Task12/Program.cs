@@ -46,7 +46,7 @@ int inputNumberA = 0; //объявляем NumberA и NumberВ как глоба
 int inputNumberB = 0; // это значит что эти переменные доступны всем void. то есть не использовать int inputNumber
 bool result = false; // false = пустая (нет значения)
 ReadData();
-ConculateData();
+CalculateData();
 PrintData();
 
 void ReadData() //получаем два числа от пользователя
@@ -62,7 +62,7 @@ void ReadData() //получаем два числа от пользовател
     }
 }
 
-void ConculateData()  // определяем кратность чисел
+void CalculateData()  // определяем кратность чисел
 {
     result = (inputNumberB % inputNumberA == 0); //посчитали кратно ли В к А
 }
