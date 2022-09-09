@@ -16,31 +16,31 @@ if (inputLineA != null && inputLineB != null)
 
     if (inputNumberA > 0 && inputNumberB > 0 && inputNumberA > inputNumberB)
     {
-         Console.WriteLine("inputNumberA > inputNumberB");
-        Console.WriteLine("max = inputNumberA"); 
+         Console.WriteLine(+inputNumberA + " больше " +inputNumberB);
+        Console.WriteLine("max = " +inputNumberA); 
     }
     if (inputNumberA > 0 && inputNumberB > 0 && inputNumberA < inputNumberB)
     {
-        Console.WriteLine(inputNumberA < inputNumberB);
+        Console.WriteLine(+inputNumberA + " меньше " +inputNumberB);
     }
 
     if (inputNumberA < 0 && inputNumberB < 0 && (-1) * inputNumberA > (-1) * inputNumberB)
     {
-        Console.WriteLine("inputNumberA < inputNumberB");
+        Console.WriteLine(+inputNumberA + " меньше " +inputNumberB);
     }
     if (inputNumberA < 0 && inputNumberB < 0 && (-1) * inputNumberA < (-1) * inputNumberB)
 
     {
-        Console.WriteLine("inputNumberA > inputNumberB");
+        Console.WriteLine(+inputNumberA + " больше " +inputNumberB);
     }
 
     if (inputNumberA < 0 && inputNumberB > 0)
     {
-        Console.WriteLine("inputNumberA < NumberB");
+        Console.WriteLine(+inputNumberA + " меньше " +inputNumberB);
     }
 
     if (inputNumberA > 0 && inputNumberB < 0)
     {
-        Console.WriteLine("inputNumberA > inputNumberB");
+        Console.WriteLine(+inputNumberA + " больше " +inputNumberB);
     }
 }
