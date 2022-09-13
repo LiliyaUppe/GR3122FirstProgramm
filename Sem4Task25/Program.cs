@@ -4,15 +4,15 @@
 // 2, 4 -> 16
 
 // Чтение данных из консоли
-int ReadData(string line)
+(int numberA, int numberB) ReadData(string line1, string line2)
 {
-    Console.WriteLine(line);// Выводим сообщение
+    // Выводим сообщение
+    Console.WriteLine(line1);
     int numberA = int.Parse(Console.ReadLine() ?? "0");  // Считываем число
-    return numberA;  // Возвращаем значение
+    Console.WriteLine(line2);
     int numberB = int.Parse(Console.ReadLine() ?? "0");
-    return numberB;
+    return (numberA, numberB); // возвращаем переменную
 }
-
 
 // Печать результата
 void PrintResult(string line)
@@ -34,23 +34,22 @@ long PowFor(int numberA, int numberB)
 // ////вычисление возведения в степень (без цикла)
 long PowMath(int numberA, int numberB)
 {
-long result = (long)Math.Pow(numberA, numberB);
+    long result = (long)Math.Pow(numberA, numberB);
     return result;
 }
 
-int numberA = ReadData("Input number A: ");
-int numberB = ReadData("Input number B: ");
+
+(int numberA, int numberB) askResult = ReadData("Input number A: ", "Input number B: ");
 DateTime d1 = DateTime.Now;
-long result1 = PowFor(numberA, numberB);
+long result1 = PowFor(askResult.numberA, askResult.numberB);
 DateTime d2 = DateTime.Now;
-long result2 = PowMath(numberA, numberB);
-Console.WriteLine(DateTime.Now-d1);
-Console.WriteLine(DateTime.Now-d2);
+long result2 = PowMath(askResult.numberA, askResult.numberB);
+Console.WriteLine(DateTime.Now - d1);
+Console.WriteLine(DateTime.Now - d2);
 PrintResult($"A^B = {result1}" + " - cycle method");
 PrintResult($"A^B = {result2}" + " - simple method");
 
-
-
+//старый вариант для новичкой, простой
 // int numberA = ReadData("Input number A: ");
 // int numberB = ReadData("Input number B: ");
 // DateTime d1 = DateTime.Now;
