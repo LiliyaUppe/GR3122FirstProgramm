@@ -21,7 +21,7 @@ void PrintResult(string line)
 }
 
 // //вычисление возведения в степень (цикл)
-long Pow1(int numberA, int numberB)
+long PowFor(int numberA, int numberB)
 {
     long result = 1;
     for (int i = 0; i < numberB; i++)
@@ -32,7 +32,7 @@ long Pow1(int numberA, int numberB)
 }
 
 // ////вычисление возведения в степень (без цикла)
-long Pow2(int numberA, int numberB)
+long PowMath(int numberA, int numberB)
 {
 long result = (long)Math.Pow(numberA, numberB);
     return result;
@@ -41,9 +41,9 @@ long result = (long)Math.Pow(numberA, numberB);
 int numberA = ReadData("Input number A: ");
 int numberB = ReadData("Input number B: ");
 DateTime d1 = DateTime.Now;
-long result1 = Pow1(numberA, numberB);
+long result1 = PowFor(numberA, numberB);
 DateTime d2 = DateTime.Now;
-long result2 = Pow2(numberA, numberB);
+long result2 = PowMath(numberA, numberB);
 Console.WriteLine(DateTime.Now-d1);
 Console.WriteLine(DateTime.Now-d2);
 PrintResult($"A^B = {result1}" + " - cycle method");
@@ -54,6 +54,6 @@ PrintResult($"A^B = {result2}" + " - simple method");
 // int numberA = ReadData("Input number A: ");
 // int numberB = ReadData("Input number B: ");
 // DateTime d1 = DateTime.Now;
-// long result2 = Pow2(numberA, numberB);
+// long result2 = PowMath(numberA, numberB);
 // Console.WriteLine(DateTime.Now-d1);
 // PrintResult($"A^B = {result2}" + " - simple method");
