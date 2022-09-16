@@ -85,7 +85,7 @@ string LineNumber(int numberN, int pow) // метод стал универса�
     string outLine = string.Empty; 
     while (i < numberN) 
     {
-        outLine = outLine + Math.Pow(i,pow) + "\t"; 
+        outLine = outLine + Math.Pow(i,pow) + "\t"; //"\t" - это перенос на другую сторку
         ++i;
     }
     outLine = outLine + Math.Pow(numberN,pow); 
