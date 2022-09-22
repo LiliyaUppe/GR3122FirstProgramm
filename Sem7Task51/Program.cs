@@ -98,7 +98,7 @@ void PrintResult(string prefix, string data)
 {
     Console.WriteLine(prefix + data);
 }
-// Печать двумерного массива
+// Печать двумерного массива - самый долгое решение, тк проходим по всему массиву, а можно просто по диагонали
 void Print2DArray(int[,] matr)
 {
     for (int i = 0; i < matr.GetLength(0); i++)

@@ -29,9 +29,9 @@ int[,] Fill2DArray(int countRow, int countColumn, int topBorder, int downBorder)
     // 0 x
     // 1       y
     // 2
-    for (int i = 0; i < countRow; i++)
+    for (int i = 0; i < countRow; i++) //индекс строки
     {
-        for (int j = 0; j < countColumn; j++)
+        for (int j = 0; j < countColumn; j++) // индекс столбца
         {
             array2D[i,j] = rand.Next(topBorder, downBorder + 1);
         }
@@ -46,7 +46,7 @@ void Print2DArray(int[,] matr)
     {
         for (int j = 0; j < matr.GetLength(1); j++)
         {
-            Console.Write($"{matr[i, j]} ");
+            Console.Write($"{matr[i, j]} "); //здесь можно использовать \t турбуляцию для выравнивания столбцов и ячеек
         }
         Console.WriteLine();
     }
